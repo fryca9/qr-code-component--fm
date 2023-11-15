@@ -27,9 +27,9 @@ main {
 
 .qr-card__container {
   width: 300px;
-  background-color: var(--card-bg);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  background-color: var(--card-bg);
 }
 
 .qr-card__container,
@@ -47,8 +47,7 @@ main {
 .qr__descr {
   text-align: center;
   width: 80%;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 0;
 }
 
 .qr__title {
@@ -57,20 +56,25 @@ main {
 
 .qr__descr {
   color: var(--descr-text);
+  margin-bottom: 30px;
   font-size: 14px;
   line-height: 1.3em;
-  margin-bottom: 30px;
 }
 
+/* ========================================== */
+
 .attribution {
-  font-size: 11px;
-  text-align: center;
   width: 80%;
   margin: 0 auto;
+  font-size: 11px;
+  text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* ========================================== */
 
 @media (max-width: 400px) {
   main {
